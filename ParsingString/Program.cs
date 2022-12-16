@@ -17,6 +17,8 @@ namespace ParsingString
             Console.WriteLine("Parsing " + _target);
             double _result = Double.Parse(_target);
             CheckResult(_result);
+
+            //add a new commit
         }
 
         private static void CheckResult(double result)
